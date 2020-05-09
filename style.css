@@ -1,0 +1,141 @@
+body{
+            background-image: url(img/270858.jpg);
+            margin: 0;
+            padding: 0;
+        }
+        *{
+	box-sizing: border-box;
+	font-family: "Arial Narrow";
+	color: #000;
+	font-style: normal;
+	font-weight: normal;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #F00;
+	border-right-color: #F00;
+	border-bottom-color: #F00;
+	border-left-color: #F00;
+        }
+        h1{
+	text-align: center;
+	color: #999999;
+	margin: 30px 0px 0px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: blink;
+        }
+        .quizSinifi{
+            height: 400px;
+            width: 650px;
+            background-color: white;
+            margin: 30px auto;
+            border-radius: 8px;
+            padding: 30px;
+        }
+        .quizSinifi .soru{
+	padding: 15px;
+	background-color: rgb(0,0,0);
+	border-radius: 8px;
+	color: #ffffff;
+	font-size: 20px;
+	float: left;
+	width: 100%;
+        }
+        .quizSinifi .options{
+            float: left;
+            width: 100%;
+        }
+        .quizSinifi .options ul {
+            list-style: none;
+            padding: 0px;
+            display: flex;
+            justify-content:space-between ;
+            flex-wrap: wrap;
+
+        }
+        .quizSinifi .options ul li{
+	display: inline-block;
+	background-color: rgb(255,255,255);
+	width: 47%;
+	padding: 15px;
+	border-radius: 8px;
+	margin-top: 25px;
+	font-size: 15px;
+	color: #000000;
+	box-shadow: 0px 3px 0px #FFFFFF;
+	cursor: pointer;
+	outline: none;
+	text-align: center;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+
+        }
+       
+       
+        .quizSinifi .options ul li:active{
+            box-shadow: 0px 3px 0px transparent;
+            
+        }
+        .quizSinifi .options ul li.doğru{
+            background-color: rgb(31, 228, 31);
+            box-shadow: 0px 3px 0px rgb(9, 172, 45);
+
+        }
+        .quizSinifi .options ul li.yanlış{
+            background-color: rgb(230, 33, 33);
+            box-shadow: 0px 3px 0px rgb(161, 5, 5);
+
+        }
+        .quizSinifi .score{
+            float: left;
+            width: 100%;
+            padding: 25px 0px;
+
+        }
+        .quizSinifi .score .next{
+            width: 40%;
+            float: left;
+
+        }
+        .quizSinifi .score .next button{
+	padding: 15px 80px;
+	color:#FFF;
+	background-color:#666;
+	border: none;
+	border-radius: 8px;
+	font-size: 15px;
+	cursor: pointer;
+	box-shadow: 0px 3px 0px #999;
+	outline: none;
+
+
+        }
+        .quizSinifi .score .next button:active{
+            box-shadow: 0px 3px 0px transparent;
+        }
+        .quizSinifi .score .score-card{
+            width: 60%;
+            float: left;
+
+        }
+        .quizSinifi .score .score-card{
+            font-size:20px;
+            color: black;
+            line-height: 50px;
+            text-transform: uppercase;
+        }
+        .quizSinifi .score .score-card span{
+	background-color: rgb(240, 98, 146);
+	padding: 5px 20px;
+	border-radius: 8px;
+	color: #ffffff;
+        }
